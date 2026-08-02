@@ -1,21 +1,38 @@
 {
   "username": "tanishkbisht584-ux",
   "name": "Tanishk Bisht",
-  "role": "Python Developer",
-  "location": "India",
-  "education": "",
-  "status": "Building market-agent",
-  "toolchain": "VS Code, Git, Ollama",
-  "languages": "Python",
-  "frontend": "",
-  "backend": "",
-  "database": "MongoDB",
-  "infra": "GitHub Actions",
   "email": "tanishkbisht584@gmail.com",
-  "linkedin": "",
+  "linkedin": "https://linkedin.com/in/tanishk-bisht",
   "instagram": "",
   "portfolio": "",
   "stats_instance": "",
+  "card": [
+    [
+      ["Subject", "Tanishk Bisht"],
+      ["Role", "Quant Developer & AI Engineer"],
+      ["Origin", "India"],
+      ["Mission", "Building AI for Finance"],
+      ["Status", "Building Market-Agent Platform"],
+      ["Focus", "Algorithmic Trading • AI Agents • FinTech"]
+    ],
+    [
+      ["Stack.Python", "Python"],
+      ["Stack.AI", "Claude • Ollama • OpenAI"],
+      ["Stack.Data", "Pandas • NumPy • MongoDB"],
+      ["Stack.Web", "FastAPI • Flask"],
+      ["Stack.DevOps", "Git • GitHub Actions • Docker"],
+      ["Stack.Tools", "VS Code • Linux"]
+    ],
+    [
+      ["Learning", ["Machine Learning", "Quant Research", "System Design"]],
+      ["Projects", ["Market-Agent", "FinSwipe", "Trading Automation"]]
+    ],
+    [
+      ["Contact", "tanishkbisht584@gmail.com"],
+      ["GitHub", "github.com/tanishkbisht584-ux"],
+      ["LinkedIn", "linkedin.com/in/tanishk-bisht"]
+    ]
+  ],
   "palette": {
     "bg": "#0A101F",
     "portrait": "#A78BFA",

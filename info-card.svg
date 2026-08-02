@@ -1,46 +1,90 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="490" height="337" viewBox="0 0 490 337" font-family="ui-monospace,SFMono-Regular,Menlo,monospace">
-<rect width="490" height="337" rx="10" fill="#0A101F" stroke="#22D3EE" stroke-opacity=".25"/>
+<svg xmlns="http://www.w3.org/2000/svg" width="511" height="624" viewBox="0 0 511 624" font-family="ui-monospace,SFMono-Regular,Menlo,monospace">
+<rect width="511" height="624" rx="10" fill="#0A101F" stroke="#22D3EE" stroke-opacity=".35"/>
 <style>
 @keyframes in{from{opacity:0;transform:translateX(-10px)}to{opacity:1;transform:none}}
 .r{opacity:0;animation:in .4s ease-out forwards}
 @media (prefers-reduced-motion:reduce){.r{animation:none;opacity:1}}
 </style>
-<text x="20" y="34" font-size="13" fill="#22D3EE">tanishkbisht584-ux@github</text>
-<line x1="20" y1="42" x2="470" y2="42" stroke="#22D3EE" stroke-opacity=".3"/>
+<text x="22" y="36" font-size="13" fill="#22D3EE">tanishkbisht584-ux@github</text>
+<line x1="22" y1="46" x2="489" y2="46" stroke="#22D3EE" stroke-opacity=".3"/>
+<g class="r" style="animation-delay:0.15s">
+<text x="22" y="69" font-size="13" fill="#10B981">Subject</text>
+<text x="154" y="69" font-size="13" fill="#F8FAFC">Tanishk Bisht</text>
+</g>
 <g class="r" style="animation-delay:0.20s">
-<text x="20" y="68" font-size="14" fill="#10B981">Subject</text>
-<text x="470" y="68" font-size="14" fill="#94A3B8" text-anchor="end">Tanishk Bisht</text>
+<text x="22" y="93" font-size="13" fill="#10B981">Role</text>
+<text x="154" y="93" font-size="13" fill="#F8FAFC">Quant Developer &amp; AI Engineer</text>
 </g>
-<g class="r" style="animation-delay:0.26s">
-<text x="20" y="91" font-size="14" fill="#10B981">Role</text>
-<text x="470" y="91" font-size="14" fill="#94A3B8" text-anchor="end">Python Developer</text>
+<g class="r" style="animation-delay:0.25s">
+<text x="22" y="117" font-size="13" fill="#10B981">Origin</text>
+<text x="154" y="117" font-size="13" fill="#F8FAFC">India</text>
 </g>
-<g class="r" style="animation-delay:0.32s">
-<text x="20" y="114" font-size="14" fill="#10B981">Origin</text>
-<text x="470" y="114" font-size="14" fill="#94A3B8" text-anchor="end">India</text>
+<g class="r" style="animation-delay:0.30s">
+<text x="22" y="141" font-size="13" fill="#10B981">Mission</text>
+<text x="154" y="141" font-size="13" fill="#F8FAFC">Building AI for Finance</text>
 </g>
-<g class="r" style="animation-delay:0.38s">
-<text x="20" y="137" font-size="14" fill="#10B981">Status</text>
-<text x="470" y="137" font-size="14" fill="#94A3B8" text-anchor="end">Building market-agent</text>
+<g class="r" style="animation-delay:0.35s">
+<text x="22" y="165" font-size="13" fill="#10B981">Status</text>
+<text x="154" y="165" font-size="13" fill="#F8FAFC">Building Market-Agent Platform</text>
 </g>
-<g class="r" style="animation-delay:0.44s">
-<text x="20" y="160" font-size="14" fill="#10B981">ToolChain</text>
-<text x="470" y="160" font-size="14" fill="#94A3B8" text-anchor="end">VS Code, Git, Ollama</text>
+<g class="r" style="animation-delay:0.40s">
+<text x="22" y="189" font-size="13" fill="#10B981">Focus</text>
+<text x="154" y="189" font-size="13" fill="#F8FAFC">Algorithmic Trading • AI Agents • FinTech</text>
 </g>
-<g class="r" style="animation-delay:0.56s">
-<text x="20" y="206" font-size="14" fill="#10B981">Core.Lang</text>
-<text x="470" y="206" font-size="14" fill="#94A3B8" text-anchor="end">Python</text>
+<g class="r" style="animation-delay:0.45s">
+<text x="22" y="225" font-size="13" fill="#10B981">Stack.Python</text>
+<text x="154" y="225" font-size="13" fill="#F8FAFC">Python</text>
 </g>
-<g class="r" style="animation-delay:0.62s">
-<text x="20" y="229" font-size="14" fill="#10B981">Core.Database</text>
-<text x="470" y="229" font-size="14" fill="#94A3B8" text-anchor="end">MongoDB</text>
+<g class="r" style="animation-delay:0.50s">
+<text x="22" y="249" font-size="13" fill="#10B981">Stack.AI</text>
+<text x="154" y="249" font-size="13" fill="#F8FAFC">Claude • Ollama • OpenAI</text>
 </g>
-<g class="r" style="animation-delay:0.68s">
-<text x="20" y="252" font-size="14" fill="#10B981">Core.Infra</text>
-<text x="470" y="252" font-size="14" fill="#94A3B8" text-anchor="end">GitHub Actions</text>
+<g class="r" style="animation-delay:0.55s">
+<text x="22" y="273" font-size="13" fill="#10B981">Stack.Data</text>
+<text x="154" y="273" font-size="13" fill="#F8FAFC">Pandas • NumPy • MongoDB</text>
+</g>
+<g class="r" style="animation-delay:0.60s">
+<text x="22" y="297" font-size="13" fill="#10B981">Stack.Web</text>
+<text x="154" y="297" font-size="13" fill="#F8FAFC">FastAPI • Flask</text>
+</g>
+<g class="r" style="animation-delay:0.65s">
+<text x="22" y="321" font-size="13" fill="#10B981">Stack.DevOps</text>
+<text x="154" y="321" font-size="13" fill="#F8FAFC">Git • GitHub Actions • Docker</text>
+</g>
+<g class="r" style="animation-delay:0.70s">
+<text x="22" y="345" font-size="13" fill="#10B981">Stack.Tools</text>
+<text x="154" y="345" font-size="13" fill="#F8FAFC">VS Code • Linux</text>
+</g>
+<g class="r" style="animation-delay:0.75s">
+<text x="22" y="381" font-size="13" fill="#10B981">Learning</text>
+<text x="154" y="381" font-size="13" fill="#F8FAFC">Machine Learning</text>
 </g>
 <g class="r" style="animation-delay:0.80s">
-<text x="20" y="298" font-size="14" fill="#10B981">Grid.Mail</text>
-<text x="470" y="298" font-size="14" fill="#94A3B8" text-anchor="end">tanishkbisht584@gmail.com</text>
+<text x="154" y="405" font-size="13" fill="#94A3B8">Quant Research</text>
+</g>
+<g class="r" style="animation-delay:0.85s">
+<text x="154" y="429" font-size="13" fill="#94A3B8">System Design</text>
+</g>
+<g class="r" style="animation-delay:0.90s">
+<text x="22" y="453" font-size="13" fill="#10B981">Projects</text>
+<text x="154" y="453" font-size="13" fill="#F8FAFC">Market-Agent</text>
+</g>
+<g class="r" style="animation-delay:0.95s">
+<text x="154" y="477" font-size="13" fill="#94A3B8">FinSwipe</text>
+</g>
+<g class="r" style="animation-delay:1.00s">
+<text x="154" y="501" font-size="13" fill="#94A3B8">Trading Automation</text>
+</g>
+<g class="r" style="animation-delay:1.05s">
+<text x="22" y="537" font-size="13" fill="#10B981">Contact</text>
+<text x="154" y="537" font-size="13" fill="#F8FAFC">tanishkbisht584@gmail.com</text>
+</g>
+<g class="r" style="animation-delay:1.10s">
+<text x="22" y="561" font-size="13" fill="#10B981">GitHub</text>
+<text x="154" y="561" font-size="13" fill="#F8FAFC">github.com/tanishkbisht584-ux</text>
+</g>
+<g class="r" style="animation-delay:1.15s">
+<text x="22" y="585" font-size="13" fill="#10B981">LinkedIn</text>
+<text x="154" y="585" font-size="13" fill="#F8FAFC">linkedin.com/in/tanishk-bisht</text>
 </g>
 </svg>
