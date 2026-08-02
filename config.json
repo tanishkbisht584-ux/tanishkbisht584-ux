@@ -13,15 +13,15 @@
       ["Origin", "India"],
       ["Mission", "Building AI for Finance"],
       ["Status", "Building Market-Agent Platform"],
-      ["Focus", "Algorithmic Trading • AI Agents • FinTech"]
+      ["Focus", "Algorithmic Trading / AI Agents / FinTech"]
     ],
     [
       ["Stack.Python", "Python"],
-      ["Stack.AI", "Claude • Ollama • OpenAI"],
-      ["Stack.Data", "Pandas • NumPy • MongoDB"],
-      ["Stack.Web", "FastAPI • Flask"],
-      ["Stack.DevOps", "Git • GitHub Actions • Docker"],
-      ["Stack.Tools", "VS Code • Linux"]
+      ["Stack.AI", "Claude / Ollama / OpenAI"],
+      ["Stack.Data", "Pandas / NumPy / MongoDB"],
+      ["Stack.Web", "FastAPI / Flask"],
+      ["Stack.DevOps", "Git / GitHub Actions / Docker"],
+      ["Stack.Tools", "VS Code / Linux"]
     ],
     [
       ["Learning", ["Machine Learning", "Quant Research", "System Design"]],
