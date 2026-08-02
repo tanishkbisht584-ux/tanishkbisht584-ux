@@ -1,0 +1,4 @@
+requests>=2.32
+beautifulsoup4>=4.12
+# portrait only - not needed by the daily workflow
+pillow>=10

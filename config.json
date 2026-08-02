@@ -1,0 +1,27 @@
+{
+  "username": "tanishkbisht584-ux",
+  "name": "Tanishk Bisht",
+  "role": "Python Developer",
+  "location": "India",
+  "education": "",
+  "status": "Building market-agent",
+  "toolchain": "VS Code, Git, Ollama",
+  "languages": "Python",
+  "frontend": "",
+  "backend": "",
+  "database": "MongoDB",
+  "infra": "GitHub Actions",
+  "email": "tanishkbisht584@gmail.com",
+  "linkedin": "",
+  "instagram": "",
+  "portfolio": "",
+  "stats_instance": "",
+  "palette": {
+    "bg": "#0A101F",
+    "portrait": "#A78BFA",
+    "chrome": "#22D3EE",
+    "accent": "#10B981",
+    "muted": "#94A3B8",
+    "text": "#F8FAFC"
+  }
+}
