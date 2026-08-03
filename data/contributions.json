@@ -1568,7 +1568,7 @@
   },
   {
    "date": "2026-06-12",
-   "level": 1,
+   "level": 2,
    "count": 2
   },
   {
@@ -1628,7 +1628,7 @@
   },
   {
    "date": "2026-06-24",
-   "level": 2,
+   "level": 3,
    "count": 4
   },
   {
@@ -1768,7 +1768,7 @@
   },
   {
    "date": "2026-07-22",
-   "level": 2,
+   "level": 3,
    "count": 4
   },
   {
@@ -1823,16 +1823,16 @@
   },
   {
    "date": "2026-08-02",
-   "level": 3,
+   "level": 4,
    "count": 6
   },
   {
    "date": "2026-08-03",
-   "level": 2,
-   "count": 3
+   "level": 4,
+   "count": 7
   }
  ],
- "total": 40,
+ "total": 44,
  "current_streak": 2,
  "longest_streak": 3,
  "best_day": {
