@@ -7,33 +7,59 @@
   "portfolio": "",
   "stats_instance": "",
   "portrait_style": "ascii",
-  "card": [
-    [
-      ["Subject", "Tanishk Bisht"],
-      ["Role", "Quant Developer & AI Engineer"],
-      ["Origin", "India"],
-      ["Mission", "Building AI for Finance"],
-      ["Status", "Building Market-Agent Platform"],
-      ["Focus", "Algorithmic Trading / AI Agents / FinTech"]
-    ],
-    [
-      ["Stack.Python", "Python"],
-      ["Stack.AI", "Claude / Ollama / OpenAI"],
-      ["Stack.Data", "Pandas / NumPy / MongoDB"],
-      ["Stack.Web", "FastAPI / Flask"],
-      ["Stack.DevOps", "Git / GitHub Actions / Docker"],
-      ["Stack.Tools", "VS Code / Linux"]
-    ],
-    [
-      ["Learning", ["Machine Learning", "Quant Research", "System Design"]],
-      ["Projects", ["Market-Agent", "FinSwipe", "Trading Automation"]]
-    ],
-    [
-      ["Contact", "tanishkbisht584@gmail.com"],
-      ["GitHub", "github.com/tanishkbisht584-ux"],
-      ["LinkedIn", "linkedin.com/in/tanishk-bisht-21558a255"]
-    ]
+
+  "header": [
+    ["USER", "Tanishk Bisht"],
+    ["ROLE", "Quant Developer | AI Engineer"],
+    ["LOCATION", "India"],
+    ["MISSION", "Building AI-powered systems for financial markets."],
+    ["STATUS", "Developing Market-Agent & FinSwipe"],
+    ["EMAIL", "tanishkbisht584@gmail.com"],
+    ["GITHUB", "github.com/tanishkbisht584-ux"],
+    ["LINKEDIN", "linkedin.com/in/tanishk-bisht"]
   ],
+
+  "sections": [
+    {"title": "PROGRAMMING", "items": [
+      "Python", "C++", "C", "Java", "SQL", "R Programming", "HTML"]},
+
+    {"title": "COMPUTER SCIENCE", "items": [
+      "Data Structures & Algorithms", "Object-Oriented Programming",
+      "Operating Systems", "Database Management Systems", "Computer Networks",
+      "Software Engineering", "Design Patterns", "System Design",
+      "Git & Version Control"]},
+
+    {"title": "BACKEND DEVELOPMENT", "items": [
+      "FastAPI", "Flask", "REST APIs", "API Integration", "MongoDB",
+      "GitHub Actions", "Docker", "Linux"]},
+
+    {"title": "ARTIFICIAL INTELLIGENCE", "items": [
+      "AI Agents", "Agentic Workflows", "LLM Applications", "OpenAI API",
+      "Claude API", "Ollama", "Prompt Engineering", "Automation Systems"]},
+
+    {"title": "DATA & ANALYTICS", "items": [
+      "Pandas", "NumPy", "Matplotlib", "Data Processing",
+      "Data Visualization", "Financial Data Analysis"]},
+
+    {"title": "FINANCE & QUANT", "items": [
+      "Algorithmic Trading", "Quantitative Research", "Trading Automation",
+      "Portfolio Analytics", "Risk Management", "Options Trading",
+      "Financial Markets"]},
+
+    {"title": "CURRENT PROJECTS", "items": [
+      ["Market-Agent", "AI-powered multi-agent trading platform"],
+      ["FinSwipe", "Intelligent financial news platform"],
+      ["Algorithmic Trading Systems", "Automated execution & backtesting"]]},
+
+    {"title": "CURRENTLY LEARNING", "items": [
+      "Machine Learning", "Reinforcement Learning", "Quantitative Finance",
+      "Financial Engineering", "Cloud Computing", "Distributed Systems"]},
+
+    {"title": "TOOLS", "items": [
+      "VS Code", "Git", "GitHub", "Docker", "Linux", "Postman",
+      "TradingView", "mtQuant"]}
+  ],
+
   "palette": {
     "bg": "#0A101F",
     "portrait": "#A78BFA",

@@ -1,9 +1,12 @@
-"""Neofetch-style info card. Rows fade in on a stagger so the panel 'prints'.
+"""Writes both terminal panels:
 
-Layout is a fixed two-column grid rather than right-aligned values: with
-multi-line entries (Learning, Projects) a right edge has nothing to align to.
-Card width is measured from the longest value, so editing config.json never
-overflows the panel.
+  info-card.svg    header block (USER/ROLE/...), sits beside the portrait
+  skills-card.svg  the sections, balanced across 3 columns, full width below
+
+The sections are ~90 lines. In one column beside a 370px portrait that is a
+2000px tower, so they get their own wide panel and are bin-packed into columns
+of near-equal height. Dividers are real <line> elements - box-drawing glyphs
+fall back to tofu in whatever monospace the browser resolves.
 """
 import json
 import os
@@ -12,14 +15,13 @@ import pathlib
 ROOT = pathlib.Path(__file__).resolve().parent.parent
 CFG = json.loads((ROOT / "config.json").read_text(encoding="utf-8"))
 PAL = CFG["palette"]
-
-PAD = 22
-ROW = 24
-GAP = 12          # blank space between groups
-FS = 13
-LABEL_W = 132
-CHAR_W = FS * 0.60   # monospace advance at this size
 STATIC = os.environ.get("STATIC") == "1"
+
+FS = 12
+ROW = 18
+PAD = 22
+COLS = 3
+CARD_W = 880
 
 
 def esc(s):
@@ -27,67 +29,126 @@ def esc(s):
             .replace(">", "&gt;").replace('"', "&quot;"))
 
 
-def flatten():
-    """[(label|None, line, is_first_line)] with None marking a group spacer."""
-    out = []
-    for gi, group in enumerate(CFG["card"]):
-        if gi:
-            out.append((None, None, False))
-        for label, value in group:
-            lines = value if isinstance(value, list) else [value]
-            for li, line in enumerate(lines):
-                out.append((label if li == 0 else "", line, li == 0))
-    return out
+def anim(i, delay=0.04, start=0.15):
+    if STATIC:
+        return ""
+    return f' class="r" style="animation-delay:{start + i * delay:.2f}s"'
 
 
-def build():
-    body = flatten()
-    longest = max((len(v) for _, v, _ in body if v), default=20)
-    w = int(PAD * 2 + LABEL_W + longest * CHAR_W) + 16
-    rows = sum(ROW if lbl is not None else GAP for lbl, _, _ in body)
-    h = PAD * 2 + 34 + rows + 6
+STYLE = ("<style>"
+         "@keyframes in{from{opacity:0;transform:translateX(-8px)}to{opacity:1;transform:none}}"
+         ".r{opacity:0;animation:in .35s ease-out forwards}"
+         "@media (prefers-reduced-motion:reduce){.r{animation:none;opacity:1}}"
+         "</style>")
 
-    p = [
-        f'<svg xmlns="http://www.w3.org/2000/svg" width="{w}" height="{h}" '
-        f'viewBox="0 0 {w} {h}" font-family="ui-monospace,SFMono-Regular,Menlo,monospace">',
-        f'<rect width="{w}" height="{h}" rx="10" fill="{PAL["bg"]}" '
-        f'stroke="{PAL["chrome"]}" stroke-opacity=".35"/>',
-    ]
+
+# ---------------------------------------------------------------- header card
+
+def info_card():
+    rows = CFG["header"]
+    label_w = 96
+    longest = max(len(v) for _, v in rows)
+    w = int(PAD * 2 + label_w + longest * FS * 0.60) + 12
+    h = PAD * 2 + 30 + len(rows) * ROW + 8
+
+    p = [f'<svg xmlns="http://www.w3.org/2000/svg" width="{w}" height="{h}" '
+         f'viewBox="0 0 {w} {h}" font-family="ui-monospace,SFMono-Regular,Consolas,monospace">',
+         f'<rect width="{w}" height="{h}" rx="10" fill="{PAL["bg"]}" '
+         f'stroke="{PAL["chrome"]}" stroke-opacity=".35"/>']
     if not STATIC:
-        p += ["<style>",
-              "@keyframes in{from{opacity:0;transform:translateX(-10px)}"
-              "to{opacity:1;transform:none}}",
-              ".r{opacity:0;animation:in .4s ease-out forwards}",
-              "@media (prefers-reduced-motion:reduce){.r{animation:none;opacity:1}}",
-              "</style>"]
+        p.append(STYLE)
 
-    p.append(f'<text x="{PAD}" y="{PAD + 14}" font-size="{FS}" fill="{PAL["chrome"]}">'
-             f'{esc(CFG["username"])}@github</text>')
-    p.append(f'<line x1="{PAD}" y1="{PAD + 24}" x2="{w - PAD}" y2="{PAD + 24}" '
+    p.append(f'<text x="{PAD}" y="{PAD + 12}" font-size="{FS}" '
+             f'fill="{PAL["chrome"]}">SYSTEM PROFILE</text>')
+    p.append(f'<line x1="{PAD}" y1="{PAD + 22}" x2="{w - PAD}" y2="{PAD + 22}" '
              f'stroke="{PAL["chrome"]}" stroke-opacity=".3"/>')
 
-    y = PAD + 34 + FS
-    i = 0
-    for label, line, first in body:
-        if label is None:
-            y += GAP
-            continue
-        cls = "" if STATIC else f' class="r" style="animation-delay:{0.05 * i + 0.15:.2f}s"'
-        p.append(f"<g{cls}>")
-        if label:
-            p.append(f'<text x="{PAD}" y="{y}" font-size="{FS}" '
-                     f'fill="{PAL["accent"]}">{esc(label)}</text>')
-        p.append(f'<text x="{PAD + LABEL_W}" y="{y}" font-size="{FS}" '
-                 f'fill="{PAL["muted"] if not first else PAL["text"]}">{esc(line)}</text>')
+    y = PAD + 30 + FS
+    for i, (k, v) in enumerate(rows):
+        p.append(f"<g{anim(i)}>")
+        p.append(f'<text x="{PAD}" y="{y}" font-size="{FS}" '
+                 f'fill="{PAL["accent"]}">{esc(k)}</text>')
+        p.append(f'<text x="{PAD + label_w}" y="{y}" font-size="{FS}" '
+                 f'fill="{PAL["text"]}">{esc(v)}</text>')
         p.append("</g>")
         y += ROW
-        i += 1
+    p.append("</svg>")
+    return "\n".join(p)
+
+
+# ---------------------------------------------------------------- skills card
+
+def _lines(sec):
+    """Row cost of a section: title + rule + one row per item line."""
+    n = 0
+    for it in sec["items"]:
+        n += 2 if isinstance(it, list) else 1
+    return n + 2
+
+
+def _pack(sections):
+    """Greedy: each section joins the currently shortest column."""
+    cols = [[] for _ in range(COLS)]
+    load = [0] * COLS
+    for sec in sections:
+        i = load.index(min(load))
+        cols[i].append(sec)
+        load[i] += _lines(sec) + 1        # +1 blank row between sections
+    return cols, max(load)
+
+
+def skills_card():
+    cols, tallest = _pack(CFG["sections"])
+    col_w = (CARD_W - PAD * 2) // COLS
+    h = PAD * 2 + tallest * ROW + 10
+
+    p = [f'<svg xmlns="http://www.w3.org/2000/svg" width="{CARD_W}" height="{h}" '
+         f'viewBox="0 0 {CARD_W} {h}" '
+         f'font-family="ui-monospace,SFMono-Regular,Consolas,monospace">',
+         f'<rect width="{CARD_W}" height="{h}" rx="10" fill="{PAL["bg"]}" '
+         f'stroke="{PAL["chrome"]}" stroke-opacity=".35"/>']
+    if not STATIC:
+        p.append(STYLE)
+
+    i = 0
+    for ci, col in enumerate(cols):
+        x = PAD + ci * col_w
+        y = PAD + FS
+        for sec in col:
+            p.append(f'<g{anim(i, 0.02)}><text x="{x}" y="{y}" font-size="{FS}" '
+                     f'fill="{PAL["chrome"]}">{esc(sec["title"])}</text></g>')
+            y += 6
+            p.append(f'<line x1="{x}" y1="{y}" x2="{x + col_w - 18}" y2="{y}" '
+                     f'stroke="{PAL["chrome"]}" stroke-opacity=".25"/>')
+            y += ROW - 6
+            i += 1
+
+            for it in sec["items"]:
+                if isinstance(it, list):
+                    name, desc = it
+                    p.append(f'<g{anim(i, 0.02)}><text x="{x}" y="{y}" font-size="{FS}" '
+                             f'fill="{PAL["accent"]}">&gt; {esc(name)}</text></g>')
+                    y += ROW
+                    p.append(f'<g{anim(i, 0.02)}><text x="{x + 12}" y="{y}" '
+                             f'font-size="{FS - 1}" fill="{PAL["muted"]}" '
+                             f'fill-opacity=".8">{esc(desc)}</text></g>')
+                else:
+                    p.append(f'<g{anim(i, 0.02)}><text x="{x}" y="{y}" font-size="{FS}" '
+                             f'fill="{PAL["muted"]}">- {esc(it)}</text></g>')
+                y += ROW
+                i += 1
+            y += ROW
 
     p.append("</svg>")
     return "\n".join(p)
 
 
 if __name__ == "__main__":
-    out = ROOT / "info-card.svg"
-    out.write_text(build(), encoding="utf-8")
-    print(f"wrote {out.name} ({out.stat().st_size // 1024} KB)")
+    for name, body in (("info-card.svg", info_card()),
+                       ("skills-card.svg", skills_card())):
+        (ROOT / name).write_text(body, encoding="utf-8")
+        print(f"wrote {name} ({(ROOT / name).stat().st_size // 1024} KB)")
+
+    cols, tallest = _pack(CFG["sections"])
+    print("column balance:", [sum(_lines(s) + 1 for s in c) for c in cols],
+          f"-> tallest {tallest} rows")

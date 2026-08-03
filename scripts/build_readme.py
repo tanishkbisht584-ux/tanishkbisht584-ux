@@ -102,6 +102,12 @@ def main():
 
 <br><br>
 
+### <code>{U}@github ~ $ cat stack.txt</code>
+
+<img src="./skills-card.svg" width="880" alt="skills" />
+
+<br><br>
+
 ### <code>{U}@github ~ $ ./contributions.sh</code>
 
 <img src="./contrib-heatmap.svg" width="860" alt="contribution heatmap" />
