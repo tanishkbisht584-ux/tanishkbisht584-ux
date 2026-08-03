@@ -97,20 +97,25 @@ def main():
     if not photo.exists():
         sys.exit(f"no such file: {photo}")
 
-    ink = dither(prep(photo))
+    gray = prep(photo)
 
-    for fname, colour, bg in (
-        ("portrait-light.svg", PAL["chrome"], None),
-        ("portrait-dark.svg", PAL["portrait"], PAL["bg"]),
+    # Ink must always be the colour that CONTRASTS with the plate, or the
+    # portrait reads as a negative:
+    #   light plate (white page, dark dots) -> ink on the photo's dark parts
+    #   dark plate  (navy card, light dots) -> ink on the photo's LIT parts
+    # Sharing one ink map between them is what put dots on the hair and suit
+    # while leaving the face empty.
+    for fname, colour, bg, ink in (
+        ("portrait-light.svg", PAL["chrome"], None, dither(gray)),
+        ("portrait-dark.svg", PAL["portrait"], PAL["bg"], dither(ImageOps.invert(gray))),
     ):
         body, n = svg(ink, colour, bg)
         (ROOT / fname).write_text(body, encoding="utf-8")
-        print(f"{fname}: {n} runs, {(ROOT / fname).stat().st_size // 1024} KB")
-
-    cov = ink.mean()
-    print(f"ink coverage: {cov:.1%}")
-    if not 0.10 <= cov <= 0.60:
-        print(f"WARNING: coverage outside 10-60% - tune TARGET_MEAN (now {TARGET_MEAN})")
+        print(f"{fname}: {n} runs, {ink.mean():.1%} ink, "
+              f"{(ROOT / fname).stat().st_size // 1024} KB")
+        if not 0.10 <= ink.mean() <= 0.60:
+            print(f"  WARNING: coverage outside 10-60% - tune TARGET_MEAN "
+                  f"(now {TARGET_MEAN})")
 
 
 if __name__ == "__main__":
