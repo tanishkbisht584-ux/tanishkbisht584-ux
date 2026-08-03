@@ -1828,11 +1828,11 @@
   },
   {
    "date": "2026-08-03",
-   "level": 1,
-   "count": 1
+   "level": 2,
+   "count": 3
   }
  ],
- "total": 38,
+ "total": 40,
  "current_streak": 2,
  "longest_streak": 3,
  "best_day": {
