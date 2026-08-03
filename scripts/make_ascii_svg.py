@@ -27,8 +27,10 @@ CHAR_W = 0.60 * FS          # monospace advance
 SRC_W, SRC_H = 300, 340     # portrait aspect to preserve
 COLS = int(round(ROWS * (SRC_W / SRC_H) / 0.60))
 
-CONTRAST = 1.3
+CONTRAST = 1.6
 TARGET_MEAN = 138           # same exposure knob as the dot portrait
+FLOOR = 0.42                # below this density a cell prints a space; raise to
+                            # blank more background, lower to keep more detail
 
 # leading space clears the background to nothing; density rises left to right
 RAMP = " .`:-=+*csS#%@"
@@ -52,14 +54,21 @@ def prep(path):
     return g.filter(ImageFilter.UnsharpMask(2, 120, 3))
 
 
-def to_rows(gray, invert):
-    """Map brightness to glyphs. invert=True puts dense glyphs on LIT areas."""
+def to_rows(gray, lit):
+    """Map brightness to glyphs, sparse -> dense along RAMP.
+
+    lit=True  (dark plate): density follows brightness, so the lit face prints
+    lit=False (light plate): density follows darkness, so hair and suit print
+
+    Everything below FLOOR collapses to the space glyph. Without it the mid-grey
+    backdrop lands mid-ramp and fills the frame with '*' and 'c', leaving the
+    face nothing to stand against.
+    """
     a = np.asarray(gray, dtype=np.float32) / 255.0
-    if invert:
-        a = 1.0 - a
-    idx = np.clip((a * (len(RAMP) - 1)).round().astype(int), 0, len(RAMP) - 1)
-    # RAMP is bright->dense, so a dark pixel (low a) must land on a dense glyph
-    return ["".join(RAMP[len(RAMP) - 1 - i] for i in row) for row in idx]
+    density = a if lit else 1.0 - a
+    density = np.clip((density - FLOOR) / (1.0 - FLOOR), 0.0, 1.0)
+    idx = (density * (len(RAMP) - 1)).round().astype(int)
+    return ["".join(RAMP[i] for i in row) for row in idx]
 
 
 def esc(s):

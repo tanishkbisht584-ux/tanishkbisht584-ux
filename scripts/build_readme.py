@@ -31,13 +31,18 @@ def portrait():
 
 
 def header():
+    # the terminal card fills the gap under the header card, since the portrait
+    # column is the taller of the two
+    right = '<img src="./info-card.svg" width="490" alt="info" />'
+    if (ROOT / "terminal-card.svg").exists():
+        right += '\n<br>\n<img src="./terminal-card.svg" width="490" alt="session" />'
     p = portrait()
     if not p:
-        return f'<img src="./info-card.svg" width="490" alt="info" />'
+        return right
     return f"""<table>
   <tr>
     <td valign="top">{p}</td>
-    <td valign="top"><img src="./info-card.svg" width="490" alt="info" /></td>
+    <td valign="top">{right}</td>
   </tr>
 </table>"""
 

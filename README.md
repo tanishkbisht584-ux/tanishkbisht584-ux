@@ -9,7 +9,9 @@
   <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/tanishkbisht584-ux/tanishkbisht584-ux/main/ascii-light.svg">
   <img alt="Tanishk Bisht" src="https://raw.githubusercontent.com/tanishkbisht584-ux/tanishkbisht584-ux/main/ascii-light.svg" width="370">
 </picture></td>
-    <td valign="top"><img src="./info-card.svg" width="490" alt="info" /></td>
+    <td valign="top"><img src="./info-card.svg" width="490" alt="info" />
+<br>
+<img src="./terminal-card.svg" width="490" alt="session" /></td>
   </tr>
 </table>
 
