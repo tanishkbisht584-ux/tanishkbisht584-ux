@@ -19,12 +19,14 @@ TX = PAL["text"].lstrip("#")
 
 
 def portrait():
-    if not (ROOT / "portrait-dark.svg").exists():
+    """'ascii' for the character portrait, 'dots' for the dithered one."""
+    stem = "ascii" if CFG.get("portrait_style", "ascii") == "ascii" else "portrait"
+    if not (ROOT / f"{stem}-dark.svg").exists():
         return ""
     return f"""<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="{RAW}/main/portrait-dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="{RAW}/main/portrait-light.svg">
-  <img alt="{CFG['name']}" src="{RAW}/main/portrait-light.svg" width="370">
+  <source media="(prefers-color-scheme: dark)" srcset="{RAW}/main/{stem}-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="{RAW}/main/{stem}-light.svg">
+  <img alt="{CFG['name']}" src="{RAW}/main/{stem}-light.svg" width="370">
 </picture>"""
 
 

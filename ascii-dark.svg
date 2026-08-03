@@ -1,0 +1,66 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="424" height="480" viewBox="0 0 424 480" font-family="ui-monospace,SFMono-Regular,Consolas,monospace">
+<rect width="424" height="480" rx="6" fill="#0A101F"/>
+<style>
+@keyframes wipe{from{clip-path:inset(0 100% 0 0)}to{clip-path:inset(0 0 0 0)}}
+.l{clip-path:inset(0 100% 0 0);animation:wipe .32s steps(85,end) forwards}
+@media (prefers-reduced-motion:reduce){.l{animation:none;clip-path:none}}
+</style>
+<text class="l" x="8" y="16" font-size="8" fill="#A78BFA" xml:space="preserve" style="animation-delay:0.00s">*************************************************************************************</text>
+<text class="l" x="8" y="24" font-size="8" fill="#A78BFA" xml:space="preserve" style="animation-delay:0.03s">*************************************************************************************</text>
+<text class="l" x="8" y="32" font-size="8" fill="#A78BFA" xml:space="preserve" style="animation-delay:0.06s">**********************ccccccc*ccccccccccccccccccc*cc*********************************</text>
+<text class="l" x="8" y="40" font-size="8" fill="#A78BFA" xml:space="preserve" style="animation-delay:0.08s">*************ccccccccccccccccccccscssssssssssssccccccccc***ccc***********************</text>
+<text class="l" x="8" y="48" font-size="8" fill="#A78BFA" xml:space="preserve" style="animation-delay:0.11s">*************cccccccccccccccccssssssssss*****ccssscccccc*****cc**********************</text>
+<text class="l" x="8" y="56" font-size="8" fill="#A78BFA" xml:space="preserve" style="animation-delay:0.14s">*****c*cccccccccccccccccccccssss*+=====+-:`.`--+csscccccccccc*c**********************</text>
+<text class="l" x="8" y="64" font-size="8" fill="#A78BFA" xml:space="preserve" style="animation-delay:0.17s">***ccccccccccccccccccccccccssc*: `-:.      ..:=--=csscccccccccccc********************</text>
+<text class="l" x="8" y="72" font-size="8" fill="#A78BFA" xml:space="preserve" style="animation-delay:0.20s">**cccccccccccccccccccccccsc*+-..:-:    :+=:.  .::` =csscccccccccc********************</text>
+<text class="l" x="8" y="80" font-size="8" fill="#A78BFA" xml:space="preserve" style="animation-delay:0.22s">ccccccccccccccccccccccccsc=.-:::.-=-=+c###Sss*-` ...:*sccccccccccc*******************</text>
+<text class="l" x="8" y="88" font-size="8" fill="#A78BFA" xml:space="preserve" style="animation-delay:0.25s">cccccccccccccccccccccccsc* ::`: :csSS##%###%##Sc:  .:`*scccccccc*********************</text>
+<text class="l" x="8" y="96" font-size="8" fill="#A78BFA" xml:space="preserve" style="animation-delay:0.28s">ccccccccccccccccccccsccc*:`-.`:+S##%%%%%%#%##SS#s+.. ``ccc*ccc***********************</text>
+<text class="l" x="8" y="104" font-size="8" fill="#A78BFA" xml:space="preserve" style="animation-delay:0.31s">cccccccc***cccccccccccs*:`=-::+sS###########SS#SSS=-: :+cc**cc***********************</text>
+<text class="l" x="8" y="112" font-size="8" fill="#A78BFA" xml:space="preserve" style="animation-delay:0.34s">ccccccc***ccccccccccc*=.:-+*+=cS####%%%%%%####SSSS+:- `=*cc*****c********************</text>
+<text class="l" x="8" y="120" font-size="8" fill="#A78BFA" xml:space="preserve" style="animation-delay:0.36s">cccccc**ccccccc***cc+.  -*+`=-*###S##%%@%%Sc*cccsSc`  .+sccc***ccccccc****c**********</text>
+<text class="l" x="8" y="128" font-size="8" fill="#A78BFA" xml:space="preserve" style="animation-delay:0.39s">ccccc*ccc*ccccc**ccc+   -*-  .=ssc*+*cS##s**cSSsccs=..``*sccccccccccccc*********c****</text>
+<text class="l" x="8" y="136" font-size="8" fill="#A78BFA" xml:space="preserve" style="animation-delay:0.42s">cccc*cccc*cccccccc**c+. `+..=:=sSSSc***S#c*ccc**css*-:` `csccccccccccc*c*************</text>
+<text class="l" x="8" y="144" font-size="8" fill="#A78BFA" xml:space="preserve" style="animation-delay:0.45s">ccccccccccccccccccccs*```= `+:cc+==+cccs#scsc+++*sSc+=   =cccccccccccc***************</text>
+<text class="l" x="8" y="152" font-size="8" fill="#A78BFA" xml:space="preserve" style="animation-delay:0.48s">cccccccccccccccccccss+.-.  .-`ssccsS#SsS%SsS%%#%%#Ss`   -++*ccccccc*ccc**************</text>
+<text class="l" x="8" y="160" font-size="8" fill="#A78BFA" xml:space="preserve" style="animation-delay:0.50s">ccccccccccccccccccccsS.    `-*S#%%%@%SsS%#ss#@@@@%#S-   .-ccccccccccccc**************</text>
+<text class="l" x="8" y="168" font-size="8" fill="#A78BFA" xml:space="preserve" style="animation-delay:0.53s">cc*ccccc*cccccccccscss-  :=-*S%@@@@@#sc*c++*s%#@%##S*-= `cscc***ccccccc**************</text>
+<text class="l" x="8" y="176" font-size="8" fill="#A78BFA" xml:space="preserve" style="animation-delay:0.56s">c*ccccccccccccccccccss=  `c=+S####SSS**c****sSccSSSS*c@*-****cccccc*c******c*********</text>
+<text class="l" x="8" y="184" font-size="8" fill="#A78BFA" xml:space="preserve" style="animation-delay:0.59s">ccccccccccccccccccc***c=.:=*+cssSs*++*cs#Sss+-+*sSSS*S@c:+*c*cccccc*cccccccccccc*****</text>
+<text class="l" x="8" y="192" font-size="8" fill="#A78BFA" xml:space="preserve" style="animation-delay:0.62s">*ccccccccccccccccccccsss=S@%*c#SS#c++S%@@@%#c*s##S#s+SS``+*cccccccccccccccccccccccccc</text>
+<text class="l" x="8" y="200" font-size="8" fill="#A78BFA" xml:space="preserve" style="animation-delay:0.64s">*cccccccccccccccccccccss*+@@%cS#####SsSS##SSSSSSSSSc: `-=+*cssscccccccccccccccccccccc</text>
+<text class="l" x="8" y="208" font-size="8" fill="#A78BFA" xml:space="preserve" style="animation-delay:0.67s">*cccc*cccccccccsssccccc*: `c-`cS#SS#####%%%####sSSc+  :=++*ccccccccccccccc*cccccccccc</text>
+<text class="l" x="8" y="216" font-size="8" fill="#A78BFA" xml:space="preserve" style="animation-delay:0.70s">cccccccccccccsscssccccc*-     -csSsS###%%%##Sssss*=. .-==+***ccccccccccc****ccccc****</text>
+<text class="l" x="8" y="224" font-size="8" fill="#A78BFA" xml:space="preserve" style="animation-delay:0.73s">cccccccccccccsssscccccccs*:.`. .=+++*cccc*+=-::=-`-`.:--==+**cccccccccccccccccccccccc</text>
+<text class="l" x="8" y="232" font-size="8" fill="#A78BFA" xml:space="preserve" style="animation-delay:0.76s">sccccccscccccccsccccccccss=..:. --``....`..  ..`-cs=:-===+**ccccc*ccccccc*******ccccc</text>
+<text class="l" x="8" y="240" font-size="8" fill="#A78BFA" xml:space="preserve" style="animation-delay:0.78s">cccccccccccccccccccccccccss*:.`.*s*=:`......``-*#%#+`--==**ccccc***cccc*ccccccccccccc</text>
+<text class="l" x="8" y="248" font-size="8" fill="#A78BFA" xml:space="preserve" style="animation-delay:0.81s">cccccccccccccccccccccccccsSs+-:.=##Scc*+++++++*#%#S=.-=++cssccccccccccccccccccccccccc</text>
+<text class="l" x="8" y="256" font-size="8" fill="#A78BFA" xml:space="preserve" style="animation-delay:0.84s">cccccccscccssssssssscccssSSsc+:-sS##%#####SSccsS#Sss=:=+csSsssssssscccccccccccccccccc</text>
+<text class="l" x="8" y="264" font-size="8" fill="#A78BFA" xml:space="preserve" style="animation-delay:0.87s">cccccccccccsssssssssssssSS#Ss= c@SS#%%#SSSSsccsSSs*@@.=*sSSSssssscccccccccccccccccccc</text>
+<text class="l" x="8" y="272" font-size="8" fill="#A78BFA" xml:space="preserve" style="animation-delay:0.90s">cccccccssscsssssssssSS###Sc=:  =@@sS###SSSSssssSss*%@. =c###SSssssscccccccccccccccccc</text>
+<text class="l" x="8" y="280" font-size="8" fill="#A78BFA" xml:space="preserve" style="animation-delay:0.92s">cccccssssssssSSSSSS##sc+-.   .  @@SSS#SSSsssssSSssc#@=   :+s###SSsssssccccccccccccccc</text>
+<text class="l" x="8" y="288" font-size="8" fill="#A78BFA" xml:space="preserve" style="animation-delay:0.95s">ccccsssSS#########S+.     ..`.. @@@ssSSSSSsssSSSssc%@c ..    :=cSS#SSsssscccccccccccc</text>
+<text class="l" x="8" y="296" font-size="8" fill="#A78BFA" xml:space="preserve" style="animation-delay:0.98s">ccccssSsc**=----``    ``````:`` *@@sssSSSSSSSSSSSSc@@S .```.     :+sSS#SSSSsscccccccc</text>
+<text class="l" x="8" y="304" font-size="8" fill="#A78BFA" xml:space="preserve" style="animation-delay:1.01s">cccssSs             .````  `:``..@@@sSSS#SS##SSSSSs@@@ .```..```.   .`-=+**sssccccccc</text>
+<text class="l" x="8" y="312" font-size="8" fill="#A78BFA" xml:space="preserve" style="animation-delay:1.04s">cccss#= ...`.```....``:::``:::`. #@@@ssSSSS%%SSssc+@@S  .`. ..````:`.      +Ssccccccc</text>
+<text class="l" x="8" y="320" font-size="8" fill="#A78BFA" xml:space="preserve" style="animation-delay:1.06s">cccsSc  ``````````::::::::::::`` +@@@SSSsSS##SSsscs@@@  .`:::`````````````..ssscccccc</text>
+<text class="l" x="8" y="328" font-size="8" fill="#A78BFA" xml:space="preserve" style="animation-delay:1.09s">csss#s  `::::::::-:::::::::::::` :@@@s#SSSSS###SSs@@@@- ``::-::::`::`:````` *Sscccccc</text>
+<text class="l" x="8" y="336" font-size="8" fill="#A78BFA" xml:space="preserve" style="animation-delay:1.12s">sssSS+  :---:::::::::::::::::::`. @@@@%S#SS####SSs@@@@S `::::--::::::::::``.:sssccccc</text>
+<text class="l" x="8" y="344" font-size="8" fill="#A78BFA" xml:space="preserve" style="animation-delay:1.15s">sssS-   `--::::::::::::::::::::`` @@@@@@#SS#####S%@@@@+ `::::::-::::::::::`` -Ssscccc</text>
+<text class="l" x="8" y="352" font-size="8" fill="#A78BFA" xml:space="preserve" style="animation-delay:1.18s">ssSc  ...--::::::::::::::::-::-:` =@@@@@@sSS###S#@@@#@* ``:::::`:`::::::::`. `cSssccc</text>
+<text class="l" x="8" y="360" font-size="8" fill="#A78BFA" xml:space="preserve" style="animation-delay:1.20s">sS#: .``:--::::::::::::::------:`. @@@@@@%cS###S@@%@@@c `:::::::::::`:::::`.   *Ssscc</text>
+<text class="l" x="8" y="368" font-size="8" fill="#A78BFA" xml:space="preserve" style="animation-delay:1.23s">S#s  `::::--::::::::::::::-----::` %@@@@@@csS#S@@@@@@@* `::::::::::``::```.     *Sscc</text>
+<text class="l" x="8" y="376" font-size="8" fill="#A78BFA" xml:space="preserve" style="animation-delay:1.26s">S#= ``::::----::--::::::-::-----:: +@@@@@@S*ss%@@@@@@@* ``:::::::::```````.      *Ssc</text>
+<text class="l" x="8" y="384" font-size="8" fill="#A78BFA" xml:space="preserve" style="animation-delay:1.29s">#c  `:::``::-:::--:::::-:::-----::..@@@@@@@**S@@@@@@@@+ ```:::::::::```...       -Sss</text>
+<text class="l" x="8" y="392" font-size="8" fill="#A78BFA" xml:space="preserve" style="animation-delay:1.32s">S`  .`..  ..`:``---::::---------::` @@@@@@@#=@@@@@@@@@+ `:`::::::::```..          s#S</text>
+<text class="l" x="8" y="400" font-size="8" fill="#A78BFA" xml:space="preserve" style="animation-delay:1.34s">#: .  .``.    .`:-::::::::-------:` c@@@@@@@s@@@@@@@@@= ``::::::`:````             s#</text>
+<text class="l" x="8" y="408" font-size="8" fill="#A78BFA" xml:space="preserve" style="animation-delay:1.37s">#-   ..   ..    :-::::::::--:----:`.:@@@@@@@@@@@@@@@@@- ``:::::`````.              `S</text>
+<text class="l" x="8" y="416" font-size="8" fill="#A78BFA" xml:space="preserve" style="animation-delay:1.40s">c  .`:-----::.  ---::::::--------::` @@@@@@@@@@@@@@@@@` `::::::````.             .   </text>
+<text class="l" x="8" y="424" font-size="8" fill="#A78BFA" xml:space="preserve" style="animation-delay:1.43s">-:-------===-:  ::---:::::--------:: c@@@@@@@@@@@@@@@@..``::::````.                  </text>
+<text class="l" x="8" y="432" font-size="8" fill="#A78BFA" xml:space="preserve" style="animation-delay:1.46s">:-------------` :---::::::----:---:: =@@@@@@@@@@@@@@@@ .`::::````..                 .</text>
+<text class="l" x="8" y="440" font-size="8" fill="#A78BFA" xml:space="preserve" style="animation-delay:1.48s">::----------:`  `:-:-:::::::---:--::`.@@@@@@@@@@@@@@@% ```::`````.   .               </text>
+<text class="l" x="8" y="448" font-size="8" fill="#A78BFA" xml:space="preserve" style="animation-delay:1.51s">:::---:::-:``    `::--:::::::::-:--:` %@@@@@@@@@@@@@@s ``:``:```..   ::              </text>
+<text class="l" x="8" y="456" font-size="8" fill="#A78BFA" xml:space="preserve" style="animation-delay:1.54s">:----:::`````    .``::--::::::::::-:: c@@@@@@@@@@@@@@= ```.````..   .::`             </text>
+<text class="l" x="8" y="464" font-size="8" fill="#A78BFA" xml:space="preserve" style="animation-delay:1.57s">:::::````::`.  *    ``:--::::::::`::` :@@@@@@@@@@@@@@- .`..```..    --:::.         . </text>
+<text class="l" x="8" y="472" font-size="8" fill="#A78BFA" xml:space="preserve" style="animation-delay:1.60s">:--------:`.  =S      .`::::::::::.::` @@@@@@@@@@@@@@= `. ````.    `===---`          </text>
+</svg>

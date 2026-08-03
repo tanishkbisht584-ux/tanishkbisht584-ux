@@ -5,9 +5,9 @@
 <table>
   <tr>
     <td valign="top"><picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/tanishkbisht584-ux/tanishkbisht584-ux/main/portrait-dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/tanishkbisht584-ux/tanishkbisht584-ux/main/portrait-light.svg">
-  <img alt="Tanishk Bisht" src="https://raw.githubusercontent.com/tanishkbisht584-ux/tanishkbisht584-ux/main/portrait-light.svg" width="370">
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/tanishkbisht584-ux/tanishkbisht584-ux/main/ascii-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/tanishkbisht584-ux/tanishkbisht584-ux/main/ascii-light.svg">
+  <img alt="Tanishk Bisht" src="https://raw.githubusercontent.com/tanishkbisht584-ux/tanishkbisht584-ux/main/ascii-light.svg" width="370">
 </picture></td>
     <td valign="top"><img src="./info-card.svg" width="490" alt="info" /></td>
   </tr>
