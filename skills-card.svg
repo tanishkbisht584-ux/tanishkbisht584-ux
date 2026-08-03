@@ -17,71 +17,70 @@
 <g class="r" style="animation-delay:0.37s"><text x="22" y="250" font-size="12" fill="#94A3B8">- LLM Applications</text></g>
 <g class="r" style="animation-delay:0.39s"><text x="22" y="268" font-size="12" fill="#94A3B8">- OpenAI API</text></g>
 <g class="r" style="animation-delay:0.41s"><text x="22" y="286" font-size="12" fill="#94A3B8">- Claude API</text></g>
-<g class="r" style="animation-delay:0.43s"><text x="22" y="304" font-size="12" fill="#94A3B8">- Ollama</text></g>
-<g class="r" style="animation-delay:0.45s"><text x="22" y="322" font-size="12" fill="#94A3B8">- Prompt Engineering</text></g>
-<g class="r" style="animation-delay:0.47s"><text x="22" y="340" font-size="12" fill="#94A3B8">- Automation Systems</text></g>
-<g class="r" style="animation-delay:0.49s"><text x="22" y="376" font-size="12" fill="#22D3EE">CURRENTLY LEARNING</text></g>
-<line x1="22" y1="382" x2="282" y2="382" stroke="#22D3EE" stroke-opacity=".25"/>
-<g class="r" style="animation-delay:0.51s"><text x="22" y="394" font-size="12" fill="#94A3B8">- Machine Learning</text></g>
-<g class="r" style="animation-delay:0.53s"><text x="22" y="412" font-size="12" fill="#94A3B8">- Reinforcement Learning</text></g>
-<g class="r" style="animation-delay:0.55s"><text x="22" y="430" font-size="12" fill="#94A3B8">- Quantitative Finance</text></g>
-<g class="r" style="animation-delay:0.57s"><text x="22" y="448" font-size="12" fill="#94A3B8">- Financial Engineering</text></g>
-<g class="r" style="animation-delay:0.59s"><text x="22" y="466" font-size="12" fill="#94A3B8">- Cloud Computing</text></g>
-<g class="r" style="animation-delay:0.61s"><text x="22" y="484" font-size="12" fill="#94A3B8">- Distributed Systems</text></g>
-<g class="r" style="animation-delay:0.63s"><text x="300" y="34" font-size="12" fill="#22D3EE">COMPUTER SCIENCE</text></g>
+<g class="r" style="animation-delay:0.43s"><text x="22" y="304" font-size="12" fill="#94A3B8">- Prompt Engineering</text></g>
+<g class="r" style="animation-delay:0.45s"><text x="22" y="322" font-size="12" fill="#94A3B8">- Automation Systems</text></g>
+<g class="r" style="animation-delay:0.47s"><text x="22" y="358" font-size="12" fill="#22D3EE">CURRENT PROJECTS</text></g>
+<line x1="22" y1="364" x2="282" y2="364" stroke="#22D3EE" stroke-opacity=".25"/>
+<g class="r" style="animation-delay:0.49s"><text x="22" y="376" font-size="12" fill="#10B981">&gt; Market-Agent</text></g>
+<g class="r" style="animation-delay:0.49s"><text x="34" y="394" font-size="11" fill="#94A3B8" fill-opacity=".8">AI-powered multi-agent trading platform</text></g>
+<g class="r" style="animation-delay:0.51s"><text x="22" y="412" font-size="12" fill="#10B981">&gt; FinSwipe</text></g>
+<g class="r" style="animation-delay:0.51s"><text x="34" y="430" font-size="11" fill="#94A3B8" fill-opacity=".8">Intelligent financial news platform</text></g>
+<g class="r" style="animation-delay:0.53s"><text x="22" y="448" font-size="12" fill="#10B981">&gt; Algorithmic Trading Systems</text></g>
+<g class="r" style="animation-delay:0.53s"><text x="34" y="466" font-size="11" fill="#94A3B8" fill-opacity=".8">Automated execution &amp; backtesting</text></g>
+<g class="r" style="animation-delay:0.55s"><text x="300" y="34" font-size="12" fill="#22D3EE">COMPUTER SCIENCE</text></g>
 <line x1="300" y1="40" x2="560" y2="40" stroke="#22D3EE" stroke-opacity=".25"/>
-<g class="r" style="animation-delay:0.65s"><text x="300" y="52" font-size="12" fill="#94A3B8">- Data Structures &amp; Algorithms</text></g>
-<g class="r" style="animation-delay:0.67s"><text x="300" y="70" font-size="12" fill="#94A3B8">- Object-Oriented Programming</text></g>
-<g class="r" style="animation-delay:0.69s"><text x="300" y="88" font-size="12" fill="#94A3B8">- Operating Systems</text></g>
-<g class="r" style="animation-delay:0.71s"><text x="300" y="106" font-size="12" fill="#94A3B8">- Database Management Systems</text></g>
-<g class="r" style="animation-delay:0.73s"><text x="300" y="124" font-size="12" fill="#94A3B8">- Computer Networks</text></g>
-<g class="r" style="animation-delay:0.75s"><text x="300" y="142" font-size="12" fill="#94A3B8">- Software Engineering</text></g>
-<g class="r" style="animation-delay:0.77s"><text x="300" y="160" font-size="12" fill="#94A3B8">- Design Patterns</text></g>
-<g class="r" style="animation-delay:0.79s"><text x="300" y="178" font-size="12" fill="#94A3B8">- System Design</text></g>
-<g class="r" style="animation-delay:0.81s"><text x="300" y="196" font-size="12" fill="#94A3B8">- Git &amp; Version Control</text></g>
-<g class="r" style="animation-delay:0.83s"><text x="300" y="232" font-size="12" fill="#22D3EE">FINANCE &amp; QUANT</text></g>
+<g class="r" style="animation-delay:0.57s"><text x="300" y="52" font-size="12" fill="#94A3B8">- Data Structures &amp; Algorithms</text></g>
+<g class="r" style="animation-delay:0.59s"><text x="300" y="70" font-size="12" fill="#94A3B8">- Object-Oriented Programming</text></g>
+<g class="r" style="animation-delay:0.61s"><text x="300" y="88" font-size="12" fill="#94A3B8">- Operating Systems</text></g>
+<g class="r" style="animation-delay:0.63s"><text x="300" y="106" font-size="12" fill="#94A3B8">- Database Management Systems</text></g>
+<g class="r" style="animation-delay:0.65s"><text x="300" y="124" font-size="12" fill="#94A3B8">- Computer Networks</text></g>
+<g class="r" style="animation-delay:0.67s"><text x="300" y="142" font-size="12" fill="#94A3B8">- Software Engineering</text></g>
+<g class="r" style="animation-delay:0.69s"><text x="300" y="160" font-size="12" fill="#94A3B8">- Design Patterns</text></g>
+<g class="r" style="animation-delay:0.71s"><text x="300" y="178" font-size="12" fill="#94A3B8">- System Design</text></g>
+<g class="r" style="animation-delay:0.73s"><text x="300" y="196" font-size="12" fill="#94A3B8">- Git &amp; Version Control</text></g>
+<g class="r" style="animation-delay:0.75s"><text x="300" y="232" font-size="12" fill="#22D3EE">FINANCE &amp; QUANT</text></g>
 <line x1="300" y1="238" x2="560" y2="238" stroke="#22D3EE" stroke-opacity=".25"/>
-<g class="r" style="animation-delay:0.85s"><text x="300" y="250" font-size="12" fill="#94A3B8">- Algorithmic Trading</text></g>
-<g class="r" style="animation-delay:0.87s"><text x="300" y="268" font-size="12" fill="#94A3B8">- Quantitative Research</text></g>
-<g class="r" style="animation-delay:0.89s"><text x="300" y="286" font-size="12" fill="#94A3B8">- Trading Automation</text></g>
-<g class="r" style="animation-delay:0.91s"><text x="300" y="304" font-size="12" fill="#94A3B8">- Portfolio Analytics</text></g>
-<g class="r" style="animation-delay:0.93s"><text x="300" y="322" font-size="12" fill="#94A3B8">- Risk Management</text></g>
-<g class="r" style="animation-delay:0.95s"><text x="300" y="340" font-size="12" fill="#94A3B8">- Options Trading</text></g>
-<g class="r" style="animation-delay:0.97s"><text x="300" y="358" font-size="12" fill="#94A3B8">- Financial Markets</text></g>
-<g class="r" style="animation-delay:0.99s"><text x="300" y="394" font-size="12" fill="#22D3EE">TOOLS</text></g>
+<g class="r" style="animation-delay:0.77s"><text x="300" y="250" font-size="12" fill="#94A3B8">- Algorithmic Trading</text></g>
+<g class="r" style="animation-delay:0.79s"><text x="300" y="268" font-size="12" fill="#94A3B8">- Quantitative Research</text></g>
+<g class="r" style="animation-delay:0.81s"><text x="300" y="286" font-size="12" fill="#94A3B8">- Trading Automation</text></g>
+<g class="r" style="animation-delay:0.83s"><text x="300" y="304" font-size="12" fill="#94A3B8">- Portfolio Analytics</text></g>
+<g class="r" style="animation-delay:0.85s"><text x="300" y="322" font-size="12" fill="#94A3B8">- Risk Management</text></g>
+<g class="r" style="animation-delay:0.87s"><text x="300" y="340" font-size="12" fill="#94A3B8">- Options Trading</text></g>
+<g class="r" style="animation-delay:0.89s"><text x="300" y="358" font-size="12" fill="#94A3B8">- Financial Markets</text></g>
+<g class="r" style="animation-delay:0.91s"><text x="300" y="394" font-size="12" fill="#22D3EE">TOOLS</text></g>
 <line x1="300" y1="400" x2="560" y2="400" stroke="#22D3EE" stroke-opacity=".25"/>
-<g class="r" style="animation-delay:1.01s"><text x="300" y="412" font-size="12" fill="#94A3B8">- VS Code</text></g>
-<g class="r" style="animation-delay:1.03s"><text x="300" y="430" font-size="12" fill="#94A3B8">- Git</text></g>
-<g class="r" style="animation-delay:1.05s"><text x="300" y="448" font-size="12" fill="#94A3B8">- GitHub</text></g>
-<g class="r" style="animation-delay:1.07s"><text x="300" y="466" font-size="12" fill="#94A3B8">- Docker</text></g>
-<g class="r" style="animation-delay:1.09s"><text x="300" y="484" font-size="12" fill="#94A3B8">- Linux</text></g>
-<g class="r" style="animation-delay:1.11s"><text x="300" y="502" font-size="12" fill="#94A3B8">- Postman</text></g>
-<g class="r" style="animation-delay:1.13s"><text x="300" y="520" font-size="12" fill="#94A3B8">- TradingView</text></g>
-<g class="r" style="animation-delay:1.15s"><text x="300" y="538" font-size="12" fill="#94A3B8">- mtQuant</text></g>
-<g class="r" style="animation-delay:1.17s"><text x="578" y="34" font-size="12" fill="#22D3EE">BACKEND DEVELOPMENT</text></g>
+<g class="r" style="animation-delay:0.93s"><text x="300" y="412" font-size="12" fill="#94A3B8">- VS Code</text></g>
+<g class="r" style="animation-delay:0.95s"><text x="300" y="430" font-size="12" fill="#94A3B8">- Git</text></g>
+<g class="r" style="animation-delay:0.97s"><text x="300" y="448" font-size="12" fill="#94A3B8">- GitHub</text></g>
+<g class="r" style="animation-delay:0.99s"><text x="300" y="466" font-size="12" fill="#94A3B8">- Docker</text></g>
+<g class="r" style="animation-delay:1.01s"><text x="300" y="484" font-size="12" fill="#94A3B8">- Linux</text></g>
+<g class="r" style="animation-delay:1.03s"><text x="300" y="502" font-size="12" fill="#94A3B8">- Postman</text></g>
+<g class="r" style="animation-delay:1.05s"><text x="300" y="520" font-size="12" fill="#94A3B8">- TradingView</text></g>
+<g class="r" style="animation-delay:1.07s"><text x="300" y="538" font-size="12" fill="#94A3B8">- mtQuant</text></g>
+<g class="r" style="animation-delay:1.09s"><text x="578" y="34" font-size="12" fill="#22D3EE">BACKEND DEVELOPMENT</text></g>
 <line x1="578" y1="40" x2="838" y2="40" stroke="#22D3EE" stroke-opacity=".25"/>
-<g class="r" style="animation-delay:1.19s"><text x="578" y="52" font-size="12" fill="#94A3B8">- FastAPI</text></g>
-<g class="r" style="animation-delay:1.21s"><text x="578" y="70" font-size="12" fill="#94A3B8">- Flask</text></g>
-<g class="r" style="animation-delay:1.23s"><text x="578" y="88" font-size="12" fill="#94A3B8">- REST APIs</text></g>
-<g class="r" style="animation-delay:1.25s"><text x="578" y="106" font-size="12" fill="#94A3B8">- API Integration</text></g>
-<g class="r" style="animation-delay:1.27s"><text x="578" y="124" font-size="12" fill="#94A3B8">- MongoDB</text></g>
-<g class="r" style="animation-delay:1.29s"><text x="578" y="142" font-size="12" fill="#94A3B8">- GitHub Actions</text></g>
-<g class="r" style="animation-delay:1.31s"><text x="578" y="160" font-size="12" fill="#94A3B8">- Docker</text></g>
-<g class="r" style="animation-delay:1.33s"><text x="578" y="178" font-size="12" fill="#94A3B8">- Linux</text></g>
-<g class="r" style="animation-delay:1.35s"><text x="578" y="214" font-size="12" fill="#22D3EE">DATA &amp; ANALYTICS</text></g>
+<g class="r" style="animation-delay:1.11s"><text x="578" y="52" font-size="12" fill="#94A3B8">- FastAPI</text></g>
+<g class="r" style="animation-delay:1.13s"><text x="578" y="70" font-size="12" fill="#94A3B8">- Flask</text></g>
+<g class="r" style="animation-delay:1.15s"><text x="578" y="88" font-size="12" fill="#94A3B8">- REST APIs</text></g>
+<g class="r" style="animation-delay:1.17s"><text x="578" y="106" font-size="12" fill="#94A3B8">- API Integration</text></g>
+<g class="r" style="animation-delay:1.19s"><text x="578" y="124" font-size="12" fill="#94A3B8">- MongoDB</text></g>
+<g class="r" style="animation-delay:1.21s"><text x="578" y="142" font-size="12" fill="#94A3B8">- GitHub Actions</text></g>
+<g class="r" style="animation-delay:1.23s"><text x="578" y="160" font-size="12" fill="#94A3B8">- Docker</text></g>
+<g class="r" style="animation-delay:1.25s"><text x="578" y="178" font-size="12" fill="#94A3B8">- Linux</text></g>
+<g class="r" style="animation-delay:1.27s"><text x="578" y="214" font-size="12" fill="#22D3EE">DATA &amp; ANALYTICS</text></g>
 <line x1="578" y1="220" x2="838" y2="220" stroke="#22D3EE" stroke-opacity=".25"/>
-<g class="r" style="animation-delay:1.37s"><text x="578" y="232" font-size="12" fill="#94A3B8">- Pandas</text></g>
-<g class="r" style="animation-delay:1.39s"><text x="578" y="250" font-size="12" fill="#94A3B8">- NumPy</text></g>
-<g class="r" style="animation-delay:1.41s"><text x="578" y="268" font-size="12" fill="#94A3B8">- Matplotlib</text></g>
-<g class="r" style="animation-delay:1.43s"><text x="578" y="286" font-size="12" fill="#94A3B8">- Data Processing</text></g>
-<g class="r" style="animation-delay:1.45s"><text x="578" y="304" font-size="12" fill="#94A3B8">- Data Visualization</text></g>
-<g class="r" style="animation-delay:1.47s"><text x="578" y="322" font-size="12" fill="#94A3B8">- Financial Data Analysis</text></g>
-<g class="r" style="animation-delay:1.49s"><text x="578" y="358" font-size="12" fill="#22D3EE">CURRENT PROJECTS</text></g>
+<g class="r" style="animation-delay:1.29s"><text x="578" y="232" font-size="12" fill="#94A3B8">- Pandas</text></g>
+<g class="r" style="animation-delay:1.31s"><text x="578" y="250" font-size="12" fill="#94A3B8">- NumPy</text></g>
+<g class="r" style="animation-delay:1.33s"><text x="578" y="268" font-size="12" fill="#94A3B8">- Matplotlib</text></g>
+<g class="r" style="animation-delay:1.35s"><text x="578" y="286" font-size="12" fill="#94A3B8">- Data Processing</text></g>
+<g class="r" style="animation-delay:1.37s"><text x="578" y="304" font-size="12" fill="#94A3B8">- Data Visualization</text></g>
+<g class="r" style="animation-delay:1.39s"><text x="578" y="322" font-size="12" fill="#94A3B8">- Financial Data Analysis</text></g>
+<g class="r" style="animation-delay:1.41s"><text x="578" y="358" font-size="12" fill="#22D3EE">CURRENTLY LEARNING</text></g>
 <line x1="578" y1="364" x2="838" y2="364" stroke="#22D3EE" stroke-opacity=".25"/>
-<g class="r" style="animation-delay:1.51s"><text x="578" y="376" font-size="12" fill="#10B981">&gt; Market-Agent</text></g>
-<g class="r" style="animation-delay:1.51s"><text x="590" y="394" font-size="11" fill="#94A3B8" fill-opacity=".8">AI-powered multi-agent trading platform</text></g>
-<g class="r" style="animation-delay:1.53s"><text x="578" y="412" font-size="12" fill="#10B981">&gt; FinSwipe</text></g>
-<g class="r" style="animation-delay:1.53s"><text x="590" y="430" font-size="11" fill="#94A3B8" fill-opacity=".8">Intelligent financial news platform</text></g>
-<g class="r" style="animation-delay:1.55s"><text x="578" y="448" font-size="12" fill="#10B981">&gt; Algorithmic Trading Systems</text></g>
-<g class="r" style="animation-delay:1.55s"><text x="590" y="466" font-size="11" fill="#94A3B8" fill-opacity=".8">Automated execution &amp; backtesting</text></g>
+<g class="r" style="animation-delay:1.43s"><text x="578" y="376" font-size="12" fill="#94A3B8">- Machine Learning</text></g>
+<g class="r" style="animation-delay:1.45s"><text x="578" y="394" font-size="12" fill="#94A3B8">- Reinforcement Learning</text></g>
+<g class="r" style="animation-delay:1.47s"><text x="578" y="412" font-size="12" fill="#94A3B8">- Quantitative Finance</text></g>
+<g class="r" style="animation-delay:1.49s"><text x="578" y="430" font-size="12" fill="#94A3B8">- Financial Engineering</text></g>
+<g class="r" style="animation-delay:1.51s"><text x="578" y="448" font-size="12" fill="#94A3B8">- Cloud Computing</text></g>
+<g class="r" style="animation-delay:1.53s"><text x="578" y="466" font-size="12" fill="#94A3B8">- Distributed Systems</text></g>
 </svg>

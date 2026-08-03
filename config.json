@@ -35,7 +35,7 @@
 
     {"title": "ARTIFICIAL INTELLIGENCE", "items": [
       "AI Agents", "Agentic Workflows", "LLM Applications", "OpenAI API",
-      "Claude API", "Ollama", "Prompt Engineering", "Automation Systems"]},
+      "Claude API", "Prompt Engineering", "Automation Systems"]},
 
     {"title": "DATA & ANALYTICS", "items": [
       "Pandas", "NumPy", "Matplotlib", "Data Processing",

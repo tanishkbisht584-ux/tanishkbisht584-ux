@@ -32,8 +32,8 @@ LINES = [
     ("ok", "backtest engine      ready"),
     ("ok", "paper broker         connected"),
     ("wait", "live execution       in progress"),
-    ("cmd", "ollama ps"),
-    ("out", "qwen2.5-coder:3b     11 tok/s"),
+    ("cmd", "git log --oneline -1"),
+    ("out", "feat: multi-agent trading platform"),
     ("cmd", "cat mission.txt"),
     ("out", "building AI for financial markets"),
 ]
