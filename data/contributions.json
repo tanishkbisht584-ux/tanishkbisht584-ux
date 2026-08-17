@@ -1823,11 +1823,16 @@
   },
   {
    "date": "2026-08-16",
-   "level": 1,
-   "count": 2
+   "level": 2,
+   "count": 5
+  },
+  {
+   "date": "2026-08-17",
+   "level": 0,
+   "count": 0
   }
  ],
- "total": 212,
+ "total": 215,
  "current_streak": 15,
  "longest_streak": 15,
  "best_day": {
