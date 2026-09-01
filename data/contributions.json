@@ -1829,10 +1829,15 @@
   {
    "date": "2026-08-31",
    "level": 1,
-   "count": 1
+   "count": 2
+  },
+  {
+   "date": "2026-09-01",
+   "level": 0,
+   "count": 0
   }
  ],
- "total": 341,
+ "total": 342,
  "current_streak": 30,
  "longest_streak": 30,
  "best_day": {
