@@ -2,41 +2,6 @@
  "username": "tanishkbisht584-ux",
  "days": [
   {
-   "date": "2025-09-07",
-   "level": 0,
-   "count": 0
-  },
-  {
-   "date": "2025-09-08",
-   "level": 0,
-   "count": 0
-  },
-  {
-   "date": "2025-09-09",
-   "level": 0,
-   "count": 0
-  },
-  {
-   "date": "2025-09-10",
-   "level": 0,
-   "count": 0
-  },
-  {
-   "date": "2025-09-11",
-   "level": 0,
-   "count": 0
-  },
-  {
-   "date": "2025-09-12",
-   "level": 0,
-   "count": 0
-  },
-  {
-   "date": "2025-09-13",
-   "level": 0,
-   "count": 0
-  },
-  {
    "date": "2025-09-14",
    "level": 0,
    "count": 0
@@ -1854,12 +1819,17 @@
   {
    "date": "2026-09-12",
    "level": 1,
-   "count": 7
+   "count": 8
+  },
+  {
+   "date": "2026-09-13",
+   "level": 1,
+   "count": 5
   }
  ],
- "total": 419,
- "current_streak": 42,
- "longest_streak": 42,
+ "total": 425,
+ "current_streak": 43,
+ "longest_streak": 43,
  "best_day": {
   "date": "2026-09-04",
   "level": 4,
