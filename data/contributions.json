@@ -1828,13 +1828,18 @@
   },
   {
    "date": "2026-10-05",
+   "level": 1,
+   "count": 1
+  },
+  {
+   "date": "2026-10-06",
    "level": 0,
    "count": 0
   }
  ],
- "total": 136,
- "current_streak": 64,
- "longest_streak": 64,
+ "total": 137,
+ "current_streak": 65,
+ "longest_streak": 65,
  "best_day": {
   "date": "2026-06-09",
   "level": 4,
